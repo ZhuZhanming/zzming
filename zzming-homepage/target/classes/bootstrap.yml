@@ -1,0 +1,19 @@
+server:
+  port: 80
+eureka:
+  client:
+    service-url:
+      defaultZone: http://zzming:123456@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+spring:
+  application:
+    name: zzming-homepage
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: zzming-config
+      username: zzming
+      password: 123456

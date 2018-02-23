@@ -1,0 +1,11 @@
+server:
+  port: 8888
+encrypt:
+  key-store:
+    location: classpath:server.jks
+    password: letmein
+    alias: mytestkey
+    secret: zzming
+spring:
+  application:
+    name: zzming-config

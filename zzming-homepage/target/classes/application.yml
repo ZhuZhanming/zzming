@@ -1,0 +1,27 @@
+feign:
+  hystrix:
+    enabled: true
+
+default.status: 0
+spring:
+  http:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 500MB
+  mail:
+    host: smtp.qq.com
+    username: 1020030139@qq.com
+    password: zpwtksnavzmqbeii
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 25000
+hystrix:
+  command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 5000

@@ -1,0 +1,13 @@
+user.file.dir: /usr/zzming/files
+spring:
+  redis:
+    database: 0
+    host: r-wz914891a8354734.redis.rds.aliyuncs.com
+    port: 6379
+    password: 159357Yx
+    pool:
+      max-active: 10000
+      max-wait: -1
+      max-idle: 5
+      min-idle: 1
+    timeout: 0
