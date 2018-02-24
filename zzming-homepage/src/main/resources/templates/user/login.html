@@ -35,6 +35,13 @@
             <ul class="nav navbar-nav">
                 <li><a th:href="@{/home}">首页</a></li>
                 <li><a th:href="@{/files}">个人文件</a> </li>
+                <li class="dropdown">
+                    <a th:href="@{/}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">站长笔记<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li th:each="note:${@noteCodeList.notes}">
+                            <a th:href="'/notes/'+${note}" th:text="${note}"></a></li>
+                    </ul>
+                </li>
                 <li class="active"><a th:href="@{/login}">用户登录</a></li>
                 <li><a th:href="@{/register}">用户注册</a></li>
             </ul>
