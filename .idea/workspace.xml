@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="e873c266-3722-4cd1-9351-6b80a6dc0f9d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/NoteController.java" afterPath="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/NoteController.java" />
-      <change beforePath="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/model/NoteCodeList.java" afterPath="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/model/NoteCodeList.java" />
-      <change beforePath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/file/files.html" afterPath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/file/files.html" />
-      <change beforePath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/home.html" afterPath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/home.html" />
-      <change beforePath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/login.html" afterPath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/login.html" />
-      <change beforePath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/register.html" afterPath="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/register.html" />
-    </list>
+    <list default="true" readonly="true" id="e873c266-3722-4cd1-9351-6b80a6dc0f9d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/zzming-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zzming-homepage/target/" />
@@ -48,74 +40,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="files.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/file/files.html">
+      <file leaf-file-name="notes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/note/notes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="1634">
+              <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/FileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/NoteController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,18 +53,88 @@
       <file leaf-file-name="NoteCodeList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/model/NoteCodeList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="513">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/note/notes.html">
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="285">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zzming-config/src/main/java/top/zzming/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZzmingConfigApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zzming-config/src/main/java/top/zzming/ZzmingConfigApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zzming-config/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zzming-config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-prod.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/application-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -176,12 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zzming-file/src/main/java/top/zzming/util/CacheUtil.java" />
-        <option value="$PROJECT_DIR$/zzming-file/src/main/java/top/zzming/service/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/util/CacheUtil.java" />
-        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/application-prod.yml" />
-        <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/service/FileService.java" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/service/FileServiceImpl.java" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/config/RedisCacheConfig.java" />
         <option value="$PROJECT_DIR$/zzming-zuul/src/main/java/top/zzming/ZzmingEurekaApplication.java" />
@@ -195,8 +189,6 @@
         <option value="$PROJECT_DIR$/zzming-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/zzming-zuul/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/zzming-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zzming-homepage/pom.xml" />
-        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/static/css/cover.css" />
         <option value="$PROJECT_DIR$/zzming-api/src/main/java/top/zzming/config/config/WebMvnConfig.java" />
         <option value="$PROJECT_DIR$/zzming-api/src/main/java/top/zzming/config/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/zzming-api/src/main/resources/application.yml" />
@@ -205,9 +197,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/feign/UserFeignClient.java" />
         <option value="$PROJECT_DIR$/zzming-user/src/main/java/top/zzming/ZzmingApiApplication.java" />
-        <option value="$PROJECT_DIR$/zzming-user/pom.xml" />
         <option value="$PROJECT_DIR$/zzming-user/src/main/java/top/zzming/ZzmingUserApplication.java" />
-        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/static/js/main.js" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/FileController.java" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/UserController.java" />
@@ -219,14 +209,24 @@
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/static/css/dashboard.css" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/static/notes/Spring MVC/1.Spring EL.md" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/note/notes.html" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/file/files.html" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/home.html" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/login.html" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/register.html" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/model/NoteCodeList.java" />
+        <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/ZzmingHomepageApplication.java" />
+        <option value="$PROJECT_DIR$/zzming-user/src/main/java/top/zzming/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/zzming-homepage/pom.xml" />
+        <option value="$PROJECT_DIR$/zzming-user/pom.xml" />
         <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/NoteController.java" />
+        <option value="$PROJECT_DIR$/zzming-config/src/main/java/top/zzming/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/static/css/cover.css" />
+        <option value="$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/note/notes.html" />
+        <option value="$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/model/NoteCodeList.java" />
       </list>
     </option>
   </component>
@@ -290,42 +290,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="zzming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="zzming-homepage" type="616d4139:PackageViewModuleNode" />
+              <item name="zzming-config" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
               <item name="zzming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="zzming-homepage" type="616d4139:PackageViewModuleNode" />
+              <item name="zzming-config" type="616d4139:PackageViewModuleNode" />
               <item name="top.zzming" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="zzming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="zzming-homepage" type="616d4139:PackageViewModuleNode" />
+              <item name="zzming-config" type="616d4139:PackageViewModuleNode" />
               <item name="top.zzming" type="1f31426a:PackageElementNode" />
               <item name="config" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="zzming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="zzming-eureka" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="zzming" type="58d84e3e:PackageViewProjectNode" />
               <item name="zzming-homepage" type="616d4139:PackageViewModuleNode" />
-              <item name="top.zzming" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="zzming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="zzming-homepage" type="616d4139:PackageViewModuleNode" />
+              <item name="templates" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="zzming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="zzming-homepage" type="616d4139:PackageViewModuleNode" />
+              <item name="templates" type="1f31426a:PackageElementNode" />
+              <item name="note" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="zzming" type="58d84e3e:PackageViewProjectNode" />
               <item name="zzming-homepage" type="616d4139:PackageViewModuleNode" />
               <item name="top.zzming" type="1f31426a:PackageElementNode" />
-              <item name="model" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,6 +348,11 @@
             <path>
               <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
               <item name="zzming" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zzming" type="462c0819:PsiDirectoryNode" />
               <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,6 +367,43 @@
               <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zzming" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zzming" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zzming" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zzming" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
@@ -362,41 +416,7 @@
             <path>
               <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
               <item name="zzming" type="462c0819:PsiDirectoryNode" />
-              <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zzming" type="462c0819:PsiDirectoryNode" />
-              <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zzming" type="462c0819:PsiDirectoryNode" />
-              <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zzming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zzming" type="462c0819:PsiDirectoryNode" />
-              <item name="zzming-homepage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="zzming-user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,7 +429,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/zzming-api/src/main/java/top/zzming" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/zzming-user/src/main/java/top/zzming" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/zzming-api" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -422,20 +442,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\svn\zzming\zzming-homepage\src\main\resources" />
-      <recent name="D:\svn\zzming\zzming-homepage\src\main\resources\static" />
-      <recent name="D:\svn\zzming\zzming-api\src\main\resources" />
-      <recent name="D:\svn\zzming" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="top.zzming" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="top.zzming.util" />
-      <recent name="top.zzming.exception" />
-      <recent name="top.zzming.config" />
-      <recent name="top.zzming.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\svn\zzming\zzming-homepage\src\main\resources\static\css" />
@@ -443,6 +451,18 @@
       <recent name="D:\svn\zzming\zzming-eureka\src\main\resources" />
       <recent name="D:\svn\zzming\zzming-homepage\src\main\java\top\zzming\service" />
       <recent name="D:\svn\zzming\zzming-homepage\src\main\java\top\zzming\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.zzming.config" />
+      <recent name="top.zzming.util" />
+      <recent name="top.zzming.exception" />
+      <recent name="top.zzming.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\svn\zzming\zzming-homepage\src\main\resources" />
+      <recent name="D:\svn\zzming\zzming-homepage\src\main\resources\static" />
+      <recent name="D:\svn\zzming\zzming-api\src\main\resources" />
+      <recent name="D:\svn\zzming" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,7 +481,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.17556694" />
+    <option name="contentProportion" value="0.21799561" />
   </component>
   <component name="RunManager" selected="Application.NoteCodeList">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -597,7 +617,7 @@
     <configuration name="ZzmingHomepageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.zzming.ZzmingHomepageApplication" />
-      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ACTIVE_PROFILES" value="prod" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="zzming-homepage" />
       <envs />
@@ -659,9 +679,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.NoteCodeList" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZzmingConfigApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ZzmingUserApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZzmingConfigApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZzmingUserApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NoteCodeList" />
         <item index="3" class="java.lang.String" itemvalue="Application.FileController" />
       </list>
     </recent_temporary>
@@ -767,11 +787,13 @@
       <workItem from="1519434144162" duration="14548000" />
       <workItem from="1519452682606" duration="142000" />
       <workItem from="1519454086374" duration="1056000" />
+      <workItem from="1519523016692" duration="5967000" />
+      <workItem from="1519529626632" duration="1678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212566000" />
+    <option name="totallyTimeSpent" value="220211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,9 +806,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35030866" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32179487" sideWeight="0.106017195" order="0" side_tool="true" content_ui="tabs" />
@@ -795,9 +819,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34871796" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1923077" sideWeight="0.49426934" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1923077" sideWeight="0.49426934" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.245702" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25286534" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -812,7 +836,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -874,27 +897,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zzming-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-zuul/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/zzming-zuul/src/main/java/top/zzming/ZzmingZuulApplication.java" />
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-api/src/main/java/top/zzming/config/config/RedisCacheConfig.java" />
-    <entry file="file://$PROJECT_DIR$/zzming-api/src/main/java/top/zzming/config/config/WebMvnConfig.java" />
-    <entry file="file://$PROJECT_DIR$/zzming-api/src/main/java/top/zzming/ZzmingApiApplication.java" />
-    <entry file="file://$PROJECT_DIR$/zzming-api/src/main/java/top/zzming/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/zzming-api/src/main/java/top/zzming/config/config/WebSecurityConfig.java" />
     <entry file="file://$PROJECT_DIR$/zzming-eureka/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -919,35 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -969,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/ZzmingHomepageApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1839">
@@ -995,20 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-user/src/main/java/top/zzming/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-config/src/main/java/top/zzming/ZzmingConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1040,13 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-user/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zzming-user/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1065,20 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="88" lean-forward="false" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/static/css/cover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/static/css/dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1102,15 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-173">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/note/notes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,48 +1053,198 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="836">
           <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/config/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/model/NoteCodeList.java">
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/ZzmingHomepageApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-user/src/main/java/top/zzming/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/home/iteblog/repo/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="404" column="18" lean-forward="false" selection-start-line="404" selection-start-column="18" selection-end-line="404" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-user/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/NoteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/user/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="608">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/controller/FileController.java">
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/service/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/static/css/cover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/static/css/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="81" />
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/templates/note/notes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/java/top/zzming/model/NoteCodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-homepage/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-config/src/main/java/top/zzming/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-config/src/main/java/top/zzming/ZzmingConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzming-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
           <folding />
         </state>
       </provider>

@@ -28,7 +28,7 @@ public class NoteController {
 
     @GetMapping("/{dir}")
     public String findNotes(@PathVariable("dir") String dir, Model model){
-        Path noteDir = NoteCodeList.noteRoot.resolve(dir);
+        Path noteDir = NoteCodeList.getNoteRoot().resolve(dir);
         try {
             List<String> noteList = Files.list(noteDir).map(p -> p.getFileName().toString()).collect(Collectors.toList());
             model.addAttribute("noteList", noteList);
@@ -43,8 +43,8 @@ public class NoteController {
     @GetMapping(value = "/{dir}", params = "note")
     @ResponseBody
     public String readNoote(@PathVariable("dir") String dir, @Param("note") String note){
-        Path noteFile = NoteCodeList.noteRoot.resolve(dir).resolve(note);
-        if (noteFile.relativize(NoteCodeList.noteRoot).getNameCount() <= 0){
+        Path noteFile = NoteCodeList.getNoteRoot().resolve(dir).resolve(note);
+        if (noteFile.relativize(NoteCodeList.getNoteRoot()).getNameCount() <= 0){
             // 防止攻击
             return "服务器繁忙";
         }

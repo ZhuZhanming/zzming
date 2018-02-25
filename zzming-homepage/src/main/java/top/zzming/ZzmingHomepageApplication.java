@@ -10,7 +10,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
-@EnableDiscoveryClient
 @EnableFeignClients
 @EnableCircuitBreaker
 public class ZzmingHomepageApplication {

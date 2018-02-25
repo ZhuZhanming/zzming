@@ -52,7 +52,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
-            <ul class="nav nav-sidebar">
+            <ul id="notes" class="nav nav-sidebar">
                 <li th:each="note:${noteList}">
                     <a th:href="'javascript:readFile(this, \''+${dir}+'?note='+${note}+'\');'" th:text="${note}"></a>
                 </li>
@@ -85,7 +85,14 @@
                 $('#file').html(htm);
             }
         });
+        $("#notes li").click(function() {
+            // 删除其他兄弟元素的样式
+            $(this).siblings('li').removeClass('active');
+            // 添加当前元素的样式
+            $(this).addClass('active');
+        });
     }
+
 </script>
 </body>
 </html>

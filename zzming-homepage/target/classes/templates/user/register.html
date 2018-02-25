@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="个人小站"/>
+    <meta name="author" content="zzming"/>
+
+    <title>注册</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link th:href="@{css/ie10-viewport-bug-workaround.css}" rel="stylesheet"/>
+
+    <!-- Custom styles for this template -->
+    <link th:href="@{css/cover.css}" rel="stylesheet"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" th:href="@{/}">ようこそ</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a th:href="@{/home}">首页</a></li>
+                <li><a th:href="@{/files}">个人文件</a> </li>
+                <li class="dropdown">
+                    <a th:href="@{/}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">站长笔记<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li th:each="note:${@noteCodeList.notes}">
+                            <a th:href="'/notes/'+${note}" th:text="${note}"></a></li>
+                    </ul>
+                </li>
+                <li><a th:href="@{/login}">用户登录</a></li>
+                <li class="active"><a th:href="@{/register}">用户注册</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+ <div class="container form">
+        <h2><span style="color:#FF0000;">*</span> 是必填项目</h2>
+        <form th:action="@{/user/register}" th:object="${user}" method="POST">
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label for="nickname">昵称:</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="nickname" name="nickname" value="" placeholder="昵称" autofocus="autofocus" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label for="username">账号<span style="color:#FF0000;">*</span>:</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="账号" required="required" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label for="password">密码<span style="color:#FF0000;">*</span>:</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="密码已在数据库加密" required="required"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label for="email">邮箱<span style="color:#FF0000;">*</span>:</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="email" class="form-control" id="email" name="email" required="required" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label for="phone">手机:</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="number" class="form-control" id="phone" name="phone" />
+                </div>
+            </div>
+            <input type="submit" id="login" value="注册" class="btn btn-lg btn-default" />
+        </form>
+</div>
+<div style="position: fixed; bottom: 30px;width: 100%">
+    <p style="margin:0 auto;">蜀ICP备18001972号-1 <a th:href="@{/}">&copy;2018zzming</a>.</p>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script th:src="@{js/ie10-viewport-bug-workaround.js}"></script>
+</body>
+</html>

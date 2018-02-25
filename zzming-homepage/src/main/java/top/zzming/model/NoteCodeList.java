@@ -1,5 +1,6 @@
 package top.zzming.model;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import top.zzming.exception.SystemException;
 
@@ -16,11 +17,9 @@ public class NoteCodeList {
     /**
      * 笔记文件的根目录
      */
-    public static final Path noteRoot;
+    private String noteDir;
 
-    static{
-        noteRoot = Paths.get("/usr/zzming/notes");
-    }
+    private static Path noteRoot;
 
     /**
      * 笔记文件夹的名字列表
@@ -29,6 +28,8 @@ public class NoteCodeList {
 
     public NoteCodeList() {
         try {
+            noteDir = "/usr/zzming/notes";
+            noteRoot = Paths.get(noteDir);
             notes = Files.list(noteRoot).map(p -> p.getFileName().toString()).collect(Collectors.toList());
         } catch (IOException e) {
             throw new SystemException(e);
@@ -37,5 +38,9 @@ public class NoteCodeList {
 
     public List<String> getNotes() {
         return notes;
+    }
+
+    public static Path getNoteRoot() {
+        return noteRoot;
     }
 }
