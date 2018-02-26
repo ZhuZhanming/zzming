@@ -1,6 +1,5 @@
 package top.zzming.model;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import top.zzming.exception.SystemException;
 
@@ -11,6 +10,9 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * 站长笔记模块的下拉列表信息
+ */
 @Component
 public class NoteCodeList {
 
@@ -19,6 +21,9 @@ public class NoteCodeList {
      */
     private String noteDir;
 
+    /**
+     * 笔记文件的根目录的Path类型
+     */
     private static Path noteRoot;
 
     /**

@@ -6,17 +6,29 @@ import org.springframework.web.context.annotation.SessionScope;
 import java.io.Serializable;
 import java.nio.file.Path;
 
+/**
+ * 个人文件中的信息
+ */
 @Component
 @SessionScope
 public class FileInfo implements Serializable {
 
-    /**
-     * 
-     */
     private static final long serialVersionUID = -8580817194868700479L;
+    /**
+     * 个人文件的根目录
+     */
     private Path rootPath;
+    /**
+     * 当前目录
+     */
     private Path nowPath;
+    /**
+     * 已使用大小
+     */
     private long alreadySize;
+    /**
+     * 可以使用大小
+     */
     private long allsize;
 
 

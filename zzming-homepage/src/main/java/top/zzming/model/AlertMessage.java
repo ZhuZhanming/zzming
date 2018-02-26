@@ -5,12 +5,20 @@ package top.zzming.model;
  */
 public class AlertMessage {
 
+    /**
+     * 信息种类
+     */
     private MsgKind msgKind;
 
+    /**
+     * 主题
+     */
     private String strongMsg;
 
+    /**
+     * 具体信息
+     */
     private String msg;
-
     
     public AlertMessage(MsgKind msgKind, String strongMsg, String msg) {
         this.msgKind = msgKind;

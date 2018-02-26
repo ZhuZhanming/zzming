@@ -13,6 +13,9 @@ import top.zzming.model.MsgKind;
 import top.zzming.model.User;
 import top.zzming.service.UserService;
 
+/**
+ * 用户模块的controller
+ */
 @Controller
 @RequestMapping("/user")
 public class UserController {
@@ -22,6 +25,9 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    /**
+     * 管理员权限下的加密密码功能
+     */
     @GetMapping("/{password}")
     @ResponseBody
     @PreAuthorize("hasAuthority('ADMIN')")
@@ -29,6 +35,9 @@ public class UserController {
         return userService.encrypt(password);
     }
 
+    /**
+     * 注册
+     */
     @PostMapping("/register")
     public String registerAction(@Validated(User.Register.class) User user, RedirectAttributes redirectAttributes){
         try{
@@ -40,6 +49,10 @@ public class UserController {
         }
         return "redirect:/login";
     }
+
+    /**
+     * 激活
+     */
     @GetMapping("/active/{activeCode}")
     public String activeDo(@PathVariable("activeCode") String activeCode,RedirectAttributes redirectAttributes){
         if (userService.active(activeCode) != 1){

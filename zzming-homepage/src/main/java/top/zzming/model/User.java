@@ -14,6 +14,9 @@ import java.util.Collections;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+/**
+ * 登录用户信息
+ */
 public class User implements UserDetails {
 
     public interface Register{}

@@ -21,6 +21,5 @@ public class WebMvnConfig extends WebMvcConfigurerAdapter {
         registry.addViewController("/register").setViewName("user/register");
         registry.addViewController("/notes").setViewName("/note/notes");
         registry.addViewController("/").setViewName("index");
-
     }
 }

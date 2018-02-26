@@ -6,8 +6,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import top.zzming.feign.UserFeignClient;
-import top.zzming.model.User;
 
+/**
+ * 自定义UserDetailsService
+ */
 @Service
 public class LoginService implements UserDetailsService {
 

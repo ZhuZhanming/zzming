@@ -2,6 +2,9 @@ package top.zzming.model;
 
 import java.io.Serializable;
 
+/**
+ * 用户角色
+ */
 public class Role implements Serializable {
     private Integer roleId;
 

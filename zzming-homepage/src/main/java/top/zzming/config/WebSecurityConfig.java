@@ -10,7 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
+import top.zzming.service.LoginService;
 /**
  * Spring security 的配置类
  */
@@ -18,9 +18,16 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
+    /**
+     * 注入自定义的UserDetailsService
+     * @see LoginService
+     */
     @Autowired
     private UserDetailsService userService;
 
+    /**
+     * 数据库密码的加密bean
+     */
     @Bean
     public PasswordEncoder getPasswordEncoder(){
         return new BCryptPasswordEncoder();

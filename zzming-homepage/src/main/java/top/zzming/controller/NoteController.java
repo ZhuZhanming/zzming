@@ -26,6 +26,9 @@ public class NoteController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(NoteController.class);
 
+    /**
+     * 查看对应文件夹笔记
+     */
     @GetMapping("/{dir}")
     public String findNotes(@PathVariable("dir") String dir, Model model){
         Path noteDir = NoteCodeList.getNoteRoot().resolve(dir);
@@ -40,6 +43,9 @@ public class NoteController {
         return "note/notes";
     }
 
+    /**
+     * 返回对应笔记的内容
+     */
     @GetMapping(value = "/{dir}", params = "note")
     @ResponseBody
     public String readNoote(@PathVariable("dir") String dir, @Param("note") String note){

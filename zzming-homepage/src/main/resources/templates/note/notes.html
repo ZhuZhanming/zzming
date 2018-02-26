@@ -63,7 +63,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
             <ul id="notes" class="nav nav-sidebar">
                 <li th:each="note:${noteList}">
-                    <a th:href="'javascript:readFile(this, \''+${dir}+'?note='+${note}+'\');'" th:text="${note}"></a>
+                    <a th:href="'javascript:readFile('+${dir}+'?note='+${note}+'');'" th:text="${note}"></a>
                 </li>
             </ul>
         </div>

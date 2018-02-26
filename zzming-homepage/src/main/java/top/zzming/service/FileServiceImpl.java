@@ -20,17 +20,29 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * 个人文件模块业务层的实现类
+ */
 @Service
 public class FileServiceImpl implements FileService {
 
     private static Logger LOGGER = LoggerFactory.getLogger(FileServiceImpl.class);
 
+    /**
+     * 个人文件界面的session信息
+     */
     @Autowired
     private FileInfo fileInfo;
 
+    /**
+     * 相当于持久层吧
+     */
     @Autowired
     private CacheUtil cacheUtil;
 
+    /**
+     * 文件系统的根目录
+     */
     @Value("${user.file.dir}")
     private String dirPath;
 
@@ -38,6 +50,7 @@ public class FileServiceImpl implements FileService {
     public void init(User user) {
         Path path = Paths.get(dirPath, user.getUserId().toString());
         try {
+            // 没有文件创建文件
             // an exception is not thrown if the directory could not be created because it already exists
             Files.createDirectories(path);
         } catch (IOException e) {
@@ -45,14 +58,18 @@ public class FileServiceImpl implements FileService {
             throw new SystemException(e);
         }
         if (fileInfo.getRootPath() == null) {
+            // 设置根目录
             fileInfo.setRootPath(path);
         }
         if (fileInfo.getNowPath() == null) {
+            // 设置当前目录
             fileInfo.setNowPath(path);
         }
+        // 设置已使用大小
         fileInfo.setAlreadySize(cacheUtil.allSize(path));
         if (fileInfo.getAllsize() == 0L) {
             // TODO
+            // 设置总大小
             fileInfo.setAllsize(1024 * 1024 * 80);
         }
     }
@@ -157,7 +174,7 @@ public class FileServiceImpl implements FileService {
     }
 
     /**
-     * 清空包括当前文件夹的所有缓存
+     * 清空包含当前文件的所有缓存
      */
     private void deleteCache(){
         Path cachePath = fileInfo.getNowPath();

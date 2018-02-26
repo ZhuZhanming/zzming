@@ -22,9 +22,6 @@ public class CacheUtil {
 
     private static Logger LOGGER = LoggerFactory.getLogger(CacheUtil.class);
 
-    @Autowired
-    private CacheUtil cacheUtil;
-
     /**
      * 查看文件或文件夹中所有文件的大小之和，单位字节
      */
@@ -35,7 +32,7 @@ public class CacheUtil {
             if (Files.isDirectory(path)) {
                 // 文件夹的场合
                 // 递归,查询路径下的所有文件和文件夹的大小
-                List<Long> sizeList = Files.list(path).parallel().map(p -> cacheUtil.allSize(p)).collect(Collectors.toList());
+                List<Long> sizeList = Files.list(path).parallel().map(p -> allSize(p)).collect(Collectors.toList());
                 // 局部变量不能直接在内部类中使用
                 for (long i : sizeList) {
                     size += i;
@@ -77,7 +74,7 @@ public class CacheUtil {
 
     @CacheEvict(value = "file", key = "#path.toString()")
     public void deleteCache(Path path){
-        LOGGER.info("缓存[key={}]已删除。", path);
+        LOGGER.debug("缓存[key={}]已删除。", path);
     }
 
 }

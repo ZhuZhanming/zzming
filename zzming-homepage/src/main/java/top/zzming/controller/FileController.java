@@ -26,17 +26,27 @@ import top.zzming.model.MsgKind;
 import top.zzming.model.User;
 import top.zzming.service.FileService;
 
+/**
+ * 个人文件界面的控制层
+ */
 @Controller
 @RequestMapping("/files")
 public class FileController {
 
     private static Logger LOGGER = LoggerFactory.getLogger(FileController.class);
 
+    /**
+     * 注入业务层
+     */
     @Autowired
     FileService fileService;
 
+    /**
+     * 每次请求的初始化
+     */
     @ModelAttribute
     public void init(@AuthenticationPrincipal User user) {
+
         fileService.init(user);
     }
 

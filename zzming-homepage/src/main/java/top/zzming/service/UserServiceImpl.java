@@ -11,6 +11,9 @@ import top.zzming.util.MailUtil;
 
 import java.util.UUID;
 
+/**
+ * 用户模块业务层实现类
+ */
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired

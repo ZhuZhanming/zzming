@@ -1,5 +1,8 @@
 package top.zzming.exception;
 
+/**
+ * 本系统的自定义异常类
+ */
 public class SystemException extends RuntimeException {
     public SystemException() {
         super();

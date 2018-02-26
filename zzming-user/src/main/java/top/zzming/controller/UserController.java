@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.*;
 import top.zzming.model.User;
 import top.zzming.service.UserService;
 
+/**
+ * 控制层
+ */
 @RestController
 @RequestMapping("/user")
 public class UserController {
