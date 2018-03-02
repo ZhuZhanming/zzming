@@ -42,6 +42,7 @@
                             <a th:href="'/notes/'+${note}" th:text="${note}"></a></li>
                     </ul>
                 </li>
+                <li><a th:href="@{/try}">Study</a></li>
                 <li sec:authorize="not isFullyAuthenticated()"><a th:href="@{/login}">用户登录</a></li>
                 <li sec:authorize="not isFullyAuthenticated()"><a th:href="@{/register}">用户注册</a></li>
                 <li sec:authorize="isFullyAuthenticated()">
@@ -63,7 +64,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
             <ul id="notes" class="nav nav-sidebar">
                 <li th:each="note:${noteList}">
-                    <a th:href="'javascript:readFile('+${dir}+'?note='+${note}+'');'" th:text="${note}"></a>
+                    <a th:href="'javascript:readFile(\''+${dir}+'?note='+${note}+'\');'" th:text="${note}"></a>
                 </li>
             </ul>
         </div>
@@ -83,7 +84,7 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script th:src="@{/js/ie10-viewport-bug-workaround.js}"></script>
 <script>
-    function readFile(a, url) {
+    function readFile(url) {
         $.ajax({
             url: url,
             type: 'get',

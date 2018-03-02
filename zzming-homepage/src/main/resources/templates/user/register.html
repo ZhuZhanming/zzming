@@ -42,8 +42,9 @@
                             <a th:href="'/notes/'+${note}" th:text="${note}"></a></li>
                     </ul>
                 </li>
+                <li><a th:href="@{/try}">Study</a></li>
                 <li sec:authorize="not isFullyAuthenticated()"><a th:href="@{/login}">用户登录</a></li>
-                <li sec:authorize="not isFullyAuthenticated()"><a th:href="@{/register}">用户注册</a></li>
+                <li sec:authorize="not isFullyAuthenticated()" class="active"><a th:href="@{/register}">用户注册</a></li>
                 <li sec:authorize="isFullyAuthenticated()">
                     <a th:href="@{/}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" th:text="'欢迎你,'+${#authentication.name}"></a>
                     <ul class="dropdown-menu">

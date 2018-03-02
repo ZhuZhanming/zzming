@@ -42,6 +42,7 @@
 							<a th:href="'/notes/'+${note}" th:text="${note}"></a></li>
 					</ul>
 				</li>
+				<li><a th:href="@{/try}">Study</a></li>
 				<li sec:authorize="not isFullyAuthenticated()"><a th:href="@{/login}">用户登录</a></li>
 				<li sec:authorize="not isFullyAuthenticated()"><a th:href="@{/register}">用户注册</a></li>
 				<li sec:authorize="isFullyAuthenticated()">
